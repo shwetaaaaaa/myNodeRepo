@@ -1,13 +1,11 @@
 {
-  "name":               "cf-node-hello",
-  "main":               "./server",
-  "description":        "CloudFoundry Hello World server in node",
-  "author":             "pmuellr",
-  "version":            "0.1.0",
-  "homepage":           "https://github.com/shwetaaaaaa/myNodeRepo.git"
-  "repository":         {"type": "git", "url": "https://github.com/shwetaaaaaa/myNodeRepo.git" },
-  "dependencies":
-    {
-      "cfenv":          "1.0.x"
-    }
+  "name": "myNodeRepo",
+  "version": "0.0.0",
+  "author": {
+    "name": "Shweta Patil",
+    "email": "shweta_patil1@persistent.com"
+  },
+  "dependencies": {
+    "cfenv": "1.0.x"
   }
+}
