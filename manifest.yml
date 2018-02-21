@@ -5,7 +5,7 @@
 #--------------------------------------
 
 applications:
-- name:    cf-node-hello
-  host:    cf-node-hello-pjm
+- name:    myNodeRepo
+  host:    myFirstNodeApplication
   memory:  128M
   command: node server.js
