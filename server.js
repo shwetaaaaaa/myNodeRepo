@@ -1,4 +1,4 @@
-// adapted from http://nodejs.org/api/synopsis.html
+
 
 http  = require("http")
 cfenv = require("cfenv")
@@ -18,6 +18,6 @@ server.listen(appEnv.port, function() {
 //-----------------------------------------------
 function onRequest(request, response) {
   response.writeHead(200, {"Content-Type": "text/plain"})
-  response.write("Some changes added to git");
+  //response.write("Some changes added to git");
   response.end("Hello World [" + instance + "]\n")
   }
