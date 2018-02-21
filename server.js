@@ -18,6 +18,6 @@ server.listen(appEnv.port, function() {
 //-----------------------------------------------
 function onRequest(request, response) {
   response.writeHead(200, {"Content-Type": "text/plain"})
-
+  response.write("Some changes added to git");
   response.end("Hello World [" + instance + "]\n")
-}
+  }
